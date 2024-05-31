@@ -203,7 +203,6 @@ func getCardValues(cards []Card) int {
 	value := 0
 
 	for _, card := range cards {
-		// fmt.Print(card.value)
 		if card.value == 1 {
 			aces++
 		} else {
